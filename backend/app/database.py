@@ -3,7 +3,9 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 from app.config import settings
 
 db_url = settings.DATABASE_URL
-if db_url.startswith("postgresql://") and "localhost" in db_url:
+
+# Force SQLAlchemy to use psycopg2 driver (works for both local and Neon)
+if db_url.startswith("postgresql://"):
     db_url = db_url.replace("postgresql://", "postgresql+psycopg2://", 1)
 
 engine = create_engine(db_url, pool_pre_ping=True)

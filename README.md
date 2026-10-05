@@ -8,6 +8,7 @@
 **Organization:** Ministry of Statistics & Programme Implementation (MoSPI)  
 **Department:** Data Informatics & Innovation Division (DIID)
 
+🚀 **MVP Live Demo:** [https://samarthsetu-eta.vercel.app] 
 ---
 
 ## Overview
@@ -27,7 +28,6 @@ Officers in India's Official Statistical System require continuous upskilling in
 - No personalized learning pathway aligned with job roles
 - Manual, slow, and inconsistent MCQ creation for training
 - No dashboard to measure how training improves competency over time
-
 ---
 
 ## Solution
